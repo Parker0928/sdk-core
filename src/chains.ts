@@ -51,5 +51,6 @@ export enum NativeCurrencyName {
   GNOSIS = 'XDAI',
   MOONBEAM = 'GLMR',
   BNB = 'BNB',
-  AVAX = 'AVAX'
+  AVAX = 'AVAX',
+  FX = 'FX'
 }
