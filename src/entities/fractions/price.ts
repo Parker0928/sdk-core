@@ -1,5 +1,5 @@
 import JSBI from 'jsbi'
-import invariant from 'tiny-invariant'
+import invariant from '../../utils/tinyInvariant'
 
 import { BigintIsh, Rounding } from '../../constants'
 import { Currency } from '../currency'

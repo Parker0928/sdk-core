@@ -1,5 +1,5 @@
 import { BigNumber } from '@ethersproject/bignumber'
-import invariant from 'tiny-invariant'
+import invariant from '../utils/tinyInvariant'
 import { checkValidAddress, validateAndParseAddress } from '../utils/validateAndParseAddress'
 import { BaseCurrency } from './baseCurrency'
 import { Currency } from './currency'

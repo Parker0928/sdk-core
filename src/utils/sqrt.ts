@@ -1,5 +1,5 @@
 import JSBI from 'jsbi'
-import invariant from 'tiny-invariant'
+import invariant from '../utils/tinyInvariant'
 
 export const MAX_SAFE_INTEGER = JSBI.BigInt(Number.MAX_SAFE_INTEGER)
 
