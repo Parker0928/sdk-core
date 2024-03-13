@@ -1407,7 +1407,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ethersproject/bignumber@npm:^5.7.0":
+"@ethersproject/bignumber@npm:^5.0.13, @ethersproject/bignumber@npm:^5.7.0":
   version: 5.7.0
   resolution: "@ethersproject/bignumber@npm:5.7.0"
   dependencies:
@@ -2137,6 +2137,7 @@ __metadata:
   resolution: "@uniswap/sdk-core@workspace:."
   dependencies:
     "@ethersproject/address": ^5.0.2
+    "@ethersproject/bignumber": ^5.0.13
     "@types/big.js": ^4.0.5
     "@types/jest": ^24.0.25
     big.js: ^5.2.2
