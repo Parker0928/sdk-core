@@ -1,5 +1,5 @@
 import JSBI from 'jsbi'
-import invariant from '../../utils/tinyInvariant'
+import invariant from 'tiny-invariant'
 import _Decimal from 'decimal.js-light'
 import _Big, { RoundingMode } from 'big.js'
 import toFormat from 'toformat'

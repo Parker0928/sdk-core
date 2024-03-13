@@ -1,4 +1,4 @@
-import invariant from '../utils/tinyInvariant'
+import invariant from 'tiny-invariant'
 
 // given an array of items sorted by `comparator`, insert an item into its sort index and constrain the size to
 // `maxSize` by removing the last item

@@ -1,4 +1,4 @@
-import invariant from '../../utils/tinyInvariant'
+import invariant from 'tiny-invariant'
 import JSBI from 'jsbi'
 import { Currency } from '../currency'
 import { Token } from '../token'
