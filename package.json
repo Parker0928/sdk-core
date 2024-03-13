@@ -19,7 +19,8 @@
     "start": "tsdx watch",
     "test": "tsdx test",
     "prepublishOnly": "tsdx build",
-    "prepare": "rm -rf ./dist && yarn build"
+    "prepare": "tsdx build",
+    "preinstall": "yarn prepare"
   },
   "dependencies": {
     "@ethersproject/address": "^5.0.2",
