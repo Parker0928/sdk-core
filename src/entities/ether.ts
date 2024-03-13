@@ -1,4 +1,4 @@
-import invariant from 'tiny-invariant'
+import invariant from '../utils/tinyInvariant'
 import { Currency } from './currency'
 import { NativeCurrency } from './nativeCurrency'
 import { Token } from './token'

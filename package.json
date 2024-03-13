@@ -21,8 +21,7 @@
     "prepublishOnly": "tsdx build",
     "prepare": "yarn build",
     "prepack": "yarn build",
-    "prepublish": "yarn build",
-    "postinstall": "yarn build"
+    "prepublish": "yarn build"
   },
   "dependencies": {
     "@ethersproject/address": "^5.0.2",
@@ -43,5 +42,6 @@
     "printWidth": 120,
     "semi": false,
     "singleQuote": true
-  }
+  },
+  "packageManager": "yarn@3.2.3"
 }
